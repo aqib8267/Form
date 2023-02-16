@@ -1,0 +1,53 @@
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+   
+}
+.Title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--orange);
+    font-family: -webkit-body;
+}
+.info-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background: var(--cardColor);
+    border-radius: 1rem;
+    border: 1px solid rebeccapurple;
+    
+}
+.input-field{
+    background: var(--inputColor);
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    width: 20rem;
+    font-family: -webkit-body;
+}
+
+.btn-form{
+    padding: 0.6rem;
+    width: 10rem;
+}
+
+@media screen and (max-width:480px){
+    .input-field{
+        width: auto;
+    }
+    .Form{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -4rem;
+    }
+}
